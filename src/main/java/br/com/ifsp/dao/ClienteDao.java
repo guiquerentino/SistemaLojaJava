@@ -20,10 +20,12 @@ public class ClienteDao
                 + "sexo, estadoCivil, dataNascimento, estado, cidade, bairro, "
                 + "logradouro, numero, email, telefoneCelular, telefoneOutros, observacoes) "
                 + "VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?);";
+
+
             
             Connection connection = null;
             PreparedStatement preparedStatement = null;
-        
+        //teste
             try {
             
             connection = ConnectionUtils.obterConexao();
